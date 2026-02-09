@@ -5,7 +5,7 @@ import { init } from 'ragged-chat-sdk';
 export default function Home() {
   useEffect(() => {
     init({
-      subdomain: 'icehub-hdhkac',
+      subdomain: 'your-sub-domain',
       apiUrl: 'https://ragflowdb.onrender.com/api'
     });
   }, []);

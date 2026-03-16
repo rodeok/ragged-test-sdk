@@ -5,7 +5,6 @@ import Link from 'next/link';
 export default function Home() {
   useEffect(() => {
     init({
-      subdomain: 'ragged',
       apiUrl: 'https://ragflowdb.onrender.com/api'
     });
   }, []);
